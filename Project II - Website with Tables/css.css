@@ -1,0 +1,55 @@
+body {
+	background: url("imgs/black_diagonal_stripes_seamless_background_pattern.jpg");
+}
+#container1 {
+	width: 1285px;
+	height: 160px;
+}
+#header {
+	width: 1285px;
+	height: 160px;
+	margin: 0 auto;
+}
+#header td {
+	margin: 0;
+	padding: 0;
+}
+#header td img {
+	display:block;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+#shoes {
+	width: 1285px;
+	height: 640px;
+	margin: 0 auto;
+}
+#bottomcontent{
+	margin: 0 auto;
+	width: 1285px;
+	height: 215px;
+}
+#bottomtable{
+	margin: 0 auto;
+	width: 1285px;
+	height: 215px;
+}
+
+#bottomtable tr td img {
+	display: block;
+}
+#footerdiv{
+	margin: 0 auto;
+	width: 1285px;
+	height: 60px;
+}
+#footertable{
+	margin: 0 auto;
+	width: 1285px;
+	height: 60px;
+}
+#footertable tr td img {
+	display: block;
+}

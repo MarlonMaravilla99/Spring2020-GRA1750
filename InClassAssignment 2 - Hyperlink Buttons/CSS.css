@@ -1,0 +1,52 @@
+body{
+	background-image: url("background-nine.jpg");
+	background-size: 1680px 1050px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: white;
+}
+
+#header {
+	height: 58px;
+	width: 624px;
+	margin:0 auto;
+	font-weight: bold;
+	font-family: Helvetica, Arial, Sans-serif;
+	font-size: 2em
+}
+
+#header div {
+	height: 27.5px;
+	width: 72.5px;
+}
+
+#outnow {
+	position: relative; top: 190px; left: 60px;
+
+
+}
+
+#socialbar {
+	width: 170px;
+	height: 540px;
+	background-color: #BBC8CA;
+	position: relative; top: -450px; left: 1250px;
+
+
+}
+
+.pand {
+	margin-top: 10px;
+
+}
+
+.amaz {
+	margin-top: 10px;
+
+}
