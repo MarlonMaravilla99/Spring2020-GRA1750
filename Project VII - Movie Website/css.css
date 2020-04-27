@@ -1,0 +1,285 @@
+html{
+	height: 3970px;
+}
+body{
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	background: url("imgs/bg.jpg");
+}
+#NavBar{
+	z-index: 4;
+	width: 100%;
+	height: 70px;
+	background: url("imgs/navbg.jpg");
+	position: fixed;
+	top: 0;
+}
+#NavBar a{
+	text-decoration: none;
+	color: black
+}
+#NavBar a:hover{
+	color: #870D0D;
+	text-decoration: line-through;
+	
+}
+#NavBar ul{
+	list-style-type:none;
+  	overflow: hidden;
+	display: inline;
+	float: right;
+	position: absolute;
+	top: 0;
+	left: 30%;
+	
+}
+#NavBar li{
+	display: inline;
+	padding-left: 20px;
+	font-size: 1.5em;
+	font-family: "Helvetica", "Gill Sans", sans-serif;
+	font-weight: bold;
+}
+#landing1{
+	z-index: -2;
+	position: absolute;
+	top: 0;
+	width: 10px;
+}
+#Landing {
+	margin: 0;
+	width: 100%;
+	height: 830px;
+	background: url("imgs/landingbg.png");
+	background-position: center;	
+}
+#Landing h1{
+	z-index: 3;
+	font-family: 'Frijole', cursive;
+	position: relative;
+	top: 84%;
+	left: 31%;
+}
+#Landing img{
+	position: relative;
+	top: 670px;
+	left: 47%;
+}
+#sinopsis1{
+	height: 70px;
+	width: 1px;
+	position: absolute;
+	top: 782px;
+	left: 0;
+}
+#Sinopsis {
+	margin: 0;
+	width: 100%;
+	height: 783px;
+	background: url("imgs/sipnosis.png");
+	background-size: cover;
+	position: relative;
+	top: -22px;
+}
+#sinopsistext {
+	width: 38%;
+	height: 300px;	
+	position: relative;
+	top: 180px;
+	left: 13%;
+}
+
+#Sinopsis h1{
+	font-family: 'Merienda', cursive;
+	text-align: center;
+	color: aliceblue;
+}
+#Sinopsis h2{
+	font-family: 'Lateef', cursive;
+	font-size: 1.75em;
+	text-align: center;
+	color: aliceblue;
+}
+#cast1{
+	height: 70px;
+	width: 1px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#Cast {
+	margin: 0;
+	width: 100%;
+	height: 783px;
+	position: relative;
+	top: -22px;
+}
+
+#Cast h1{
+	color: aliceblue;
+	font-size: 1.8em;
+	font-family: "Times New Roman", serif;
+}
+#Cast h2{
+	font-family: 'Merienda', cursive;
+	text-align: center;
+	color: aliceblue;
+	font-size: 2.2em;
+	position: relative;
+	top: 0px;
+}
+.dualleft{
+	float: left;
+	margin-left: 40px;
+	width: 47%;
+	padding: 0;
+}
+.dualright{
+	float: right;
+	margin-right: 40px;
+	width: 47%;
+	padding: 0;
+}
+.castimg{
+	list-style-type:none;
+  	overflow: hidden;
+}
+.castimg li{
+	width: 70px;
+	height: 70px;
+	background: #871D1F;
+	margin-bottom: 25px;
+}
+.castname {
+	list-style-type:none;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	top: -38px;
+}
+.castname li{
+	margin-top: 58px;
+}
+.dualleft .castimg{
+	position: relative;
+	left: 130px
+}
+.dualleft .castname{
+	position: relative;
+	left: 120px;
+	text-align: right;
+}
+.dualright .castimg{
+	float: left;
+}
+.dualright .castname{
+	text-align: left;
+}
+#Cast .dualleft{
+	position: relative;
+	top: -10px;
+}
+#Cast .dualright{
+	position: relative;
+	top: -10px;
+}
+#Cast a{
+	text-decoration: none;
+}
+#Cast a:hover{
+	color: #870D0D;
+	text-decoration: line-through;
+}
+#ch1{
+	height: 70px;
+	width: 1px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#ChapterI {
+	margin: 0;
+	width: 100%;
+	height: 783px;
+	position: relative;
+	top: -22px;
+}
+#ChapterI .dualleft img{
+	height: 780px;
+	margin-left: 15%;
+}
+#ChapterI h1{
+	font-family: 'Merienda', cursive;
+	text-align: center;
+	color: aliceblue;
+	position: relative;
+	top: 10px;
+}
+#ChapterI p{
+	font-family: 'Lateef', cursive;
+	font-size: 1.75em;
+	text-align: center;
+	color: aliceblue;
+}
+.buttons{
+	width: 100%;
+}
+.bleft{
+	width: 50%;
+	float: left;
+}
+.bright{
+	width: 50%;
+	float: right;
+}
+#ch2{
+	height: 70px;
+	width: 1px;
+	position: absolute;
+	bottom: -15px;
+	left: 0;
+}
+#ChapterII {
+	margin: 0;
+	width: 100%;
+	height: 783px;
+	position: relative;
+	top: -22px;
+}
+#ChapterII .dualleft{
+	position: relative;
+	left: -50%;
+}
+#ChapterII h1{
+	font-family: 'Merienda', cursive;
+	text-align: center;
+	color: aliceblue;
+	position: relative;
+	top: 50px;
+}
+#ChapterII p{
+	font-family: 'Lateef', cursive;
+	font-size: 1.75em;
+	text-align: center;
+	color: aliceblue;
+	position: relative;
+	top: 50px;
+}
+#ChapterII .dualright img{
+	height: 780px;
+	margin-left: 15%;
+	position: relative;
+	top: -682px;
+}
+#ChapterII .buttons{
+	position: relative;
+	top: 50px;
+}
+#Footer {
+	width: 100%;
+	height: 700px;
+	background: url("imgs/foot.jpg");
+	background-size: cover;
+	background-position: center;
+}
