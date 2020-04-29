@@ -1,0 +1,1010 @@
+html {
+	max-height: 5750px;
+}
+body{
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	background: url("imgs/BGtexture.jpg")
+}
+#MAIN{
+	padding: 0;
+	margin: 0;
+	max-height: 5750px;
+}
+#header{
+	z-index: 3;
+	width: 100%;
+	height: 100px;
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	box-shadow: 0 2px 20px 5px #000;
+}
+#logo{
+	margin-top: 7px;
+	margin-left: 20px;
+	width: 500px;
+	height: 110px;
+	float: left;
+}
+#logo img{
+	width: 90%;
+}
+#navmenu{
+	margin-top: 15px;
+	margin-right: 20px;
+	float: right;
+}
+#navmenu ul{
+	list-style-type:none;
+  	overflow: hidden;
+	display: inline;
+	float: right;
+}
+#navmenu li{
+	display: inline;
+	padding-left: 20px;
+	font-size: 1.7em;
+	font-family: "Helvetica", "Gill Sans", sans-serif
+}
+#navmenu a{
+	text-decoration: none;
+	color: #3A322E;
+}
+#navmenu a:hover{
+	color: darkgrey;
+}
+#landing{
+	z-index: 2;
+	width: 100%;
+	height: 850px;
+	background-image: url("imgs/Landingbg.png");
+	background-size: cover;
+}
+#slogan{
+	
+	position: absolute;
+	top: 40%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	transform: rotate(-5deg);
+	
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 7.5em;
+	font-weight: bold;
+	font-style: oblique;
+	color: aliceblue;
+	text-align: center;
+}
+#OurStory1{
+	height:  100px;
+	position: absolute;
+	bottom: 0;
+}
+#OurStory{
+	z-index: 2;
+	width: 100%;
+	height: 750px;
+}
+#ImgLeft{
+	margin-top: 50px;
+	margin-left: 20px;
+	width: 370px;
+	height: 650px;
+	float: left;
+}
+#ImgRight{
+	margin-right: 20px;
+	margin-top: 50px;
+	width: 370px;
+	height: 650px;
+	float: right;	
+}
+
+#definition{
+	margin-top: -30px;
+	width: 370px;
+	height: 325px;
+	background: #CAB17F;
+	font-family: 'EB Garamond', serif;
+}
+#definition h1{
+	position: relative;
+	font-size: 2.5em;
+	top: 5px;
+	margin-left: 5px;
+	
+	
+}
+#definition p{
+	position: relative;
+	top: -25px;
+	margin-right: 5px;
+	margin-left: 5px;
+	font-size: 1.5em;
+}
+.Storytext{
+	z-index: 2;
+	left: 405px;
+	width: 52%;
+	
+}
+#TopStory{
+	position: absolute;
+	top: 880px;
+	text-align: center;
+}
+#TopStory img{
+	width: 75%;
+	position: relative;
+	top: -10px;
+}
+.Storytext h1{
+	font-family: 'Berkshire Swash', cursive;
+	font-weight: 400;
+	font-size: 2.5em;
+	color: #3A322E;
+}
+.Storytext p{
+	font-family: 'EB Garamond', serif;
+	font-size: 1.35em;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#BotStory {
+	position: absolute;
+	top: 1400px;
+}
+#Bar{
+	width: 15px;
+	height: 115px;
+	position: relative;
+	top: 35px;
+	background: #3A322E;
+	float: left;
+}
+#BotText{
+	position: relative;
+	top: -5px;
+	left: 10px;
+	margin-right: 20px;
+}
+#BotText h1{
+	position: relative;
+	top: 10px;
+}
+#BotText p{
+	margin-left: 20px;
+	position: relative;
+	top: -5px;
+}
+#Location1{
+	height: 100px;
+	width: 1px;
+	position: absolute;
+	top: 1475px;
+	z-index: -1;
+}
+#Location{
+	z-index: 2;
+	width: 100%;
+	height: 750px;
+}
+#LocationLeft{
+	margin-left: 20px;
+	height: 500px;
+	width: 742px;
+	float: left;
+	text-align: center;
+	font-size: 1em;
+}
+#locationspacer{
+	width: 60%;
+	margin: -15px auto 0;
+	
+}
+#locationspacer img{
+	width: 100%;
+	
+}
+#bird{
+	width: 44%;
+	margin-left: 5%;
+	float: left;
+	margin-right: 0;
+}
+#lakes{
+	width: 44%;
+	margin-right: 5%;
+	float: right;	
+	margin-left: 0;
+}
+#LocationRight{
+	margin-right: 20px;
+	height: 500px;
+	width: 742px;
+	float: right;
+		
+}
+#LocationRight img{
+	width: 100%;
+}
+#LowerImg{
+	height: 200px;
+	width: 1650px;
+	position: relative;
+	top: 500px;
+	margin: 0 20px;
+	background: url("imgs/outside.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+#Menu1{
+	height:  100px;
+	width: 1px;
+	position: absolute;
+	top: 2250px;
+	z-index: -1;
+}
+#Menu{
+	z-index: 2;
+	width: 100%;
+	height: 2400px;
+}
+#Menu h1{
+	font-family: 'Berkshire Swash', cursive;
+	font-weight: 400;
+	font-size: 2.5em;
+	color: #3A322E;
+}
+#Menu h2{
+	font-family: 'EB Garamond', serif;
+	font-size: 1.35em;
+}
+#menutitle{
+	width: 240px;
+	height: 110px;
+	margin: 0 auto;
+}
+#menutitle h1{
+	margin: 20px auto 0;
+	text-align: center;
+}
+#menutitle img{
+	width: 80%;
+	position: relative;
+	left: 25px;
+	top: -10px;
+}
+.menuentry {
+	width: 32%;
+	height: 80px;
+	font-family: 'EB Garamond', serif;	
+}
+#appetizer h1{
+	text-align: center;
+}
+.menuentry h2{
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 1.2em;
+	
+}
+.menuentry h3{
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+	font-size: 1.2em;
+}
+.menuentry p{
+	width: 95%;
+	float: left;
+	margin-left: 5px;
+	margin-top: -10px;
+}
+.leftalign {
+	float: left;
+	margin-left: 20px;	
+}
+.centeralign {
+	position: relative;
+	left: 560px;
+	top: -400px;
+}
+#appeimg {
+	width: 540px;
+	height: 400px;
+	position: relative;
+	top: -800px;
+	float: right;
+	margin-right: 20px;	
+}
+.rightalign{
+	float: right;
+	margin-right: 20px;
+}
+#soupsandsalads{
+	float: left;
+	width: 33%;
+	position: relative;
+	top: -350px;
+}
+
+#soupsandsalads h1{
+	position: relative;
+	left: 25%;
+}
+#soupsandsalads .menuentry{
+	width: 100%;
+}
+#sandfimg{
+	width: 31%;
+	position: relative;
+	top: -1000px;
+	left: 34.5%;
+}
+#sandfimg img{
+	width: 100%;
+}
+#seafood{
+	float: right;
+	position: relative;
+	width: 33%;
+	top: -1700px;
+	
+}
+#seafood h1{
+	position: relative;
+	left: 40%;
+}
+#seafood .menuentry{
+	width: 100%;
+}
+#grill {
+	width: 100%;
+	height: 500px;
+	position: relative;
+	top: -970px;
+}
+#grill h1{
+	text-align: center;
+	margin-left: 35%;
+	width: 30%;
+	color: aliceblue;
+}
+#grill img{
+	width: 30%;
+	margin: 0;
+	position: relative;
+	left: 34.5%;
+	top: -86px;
+	z-index: -3;
+	
+}
+#grill .leftalign{
+	width: 100%;
+	position: relative;
+	top: -10px;
+}
+#grill .centeralign{
+	position: relative;
+	top: -330px;
+	left: 580px;
+}
+#grill .rightalign{
+	float: right;
+	position: relative;
+	top: -665px;
+	left: 1145px;
+	margin-right: 20px;
+	z-index: 2;
+}
+#images {
+	width: 100%;
+	height: 400px;
+}
+#images img {
+	width: 1650px;
+	position: relative;
+	top: -1600px;
+	left: 20px;
+}
+#Order1{
+	height:  100px;
+	width: 1px;
+	position: absolute;
+	top: 4700px;
+	z-index: -1;
+}
+#OrderNow{
+	width: 100%;
+	height: 750px;
+	background: url("imgs/orderbg.jpeg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+#OrderNow h1{
+	font-family: 'Berkshire Swash', cursive;
+	font-weight: 400;
+	font-size: 3em;
+	color: aliceblue;
+	text-align: center;
+	margin-left: 35%;
+}
+#OrderNow h2{
+	font-family: 'EB Garamond', serif;
+	font-size: 1.5em;
+	color: aliceblue;
+	text-align: center;
+	width: 40%;
+	position: relative;
+	left: 30%;
+}
+#ordertitle {
+	width: 100%;
+	position: relative;
+	top: 100px;
+}	
+#ordersub{
+	width: 100%;
+	position: relative;
+	top: 75px;
+}
+#orderbuttons{
+	width: 1650px;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+}
+#OrderNow .rightalign {
+	width: 550px;
+	position: relative;
+	top: -1800px;
+}
+#OrderNow .centeralign {
+	width: 550px;
+	position: relative;
+	top: -1400px;
+}
+#OrderNow .leftalign {
+	width: 550px;
+	position: relative;
+	top: -1000px;
+}
+#Footer{
+	width: 100%;
+	height: 200px;
+	margin-top: -25px;
+	background: #120F47;
+	margin-bottom: 0;
+	position: relative;
+	top: 100px;
+
+}
+#Footer p{
+	font-family: 'EB Garamond', serif;
+	font-size: 1.5em;
+	color: aliceblue;
+	position: relative;
+	top: -300px;
+	
+	
+	
+	
+}
+@media (max-width: 768px){
+	
+	
+	
+	html {
+	max-height: 5750px;
+	}
+	body{
+		padding: 0;
+		margin: 0;
+		overflow-x: hidden;
+		background: url("imgs/BGtexture.jpg")
+	}
+	#MAIN{
+		padding: 0;
+		margin: 0;
+		max-height: 5750px;
+	}
+	#header{
+		z-index: 3;
+		width: 100%;
+		height: 70px;
+		background-color: #FFFFFF;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		box-shadow: 0 2px 20px 5px #000;
+	}
+	#logo{
+		width: 240px;
+		height: 110px;
+		position: absolute;
+		top: 0;
+		left: 35%
+	}
+	#logo img{
+		width: 90%;
+	}
+	#navmenu{
+		margin-right: 15px;
+		position: absolute;
+		top: 25%;
+		left: 22%;
+	}
+	#navmenu ul{
+		list-style-type:none;
+		overflow: hidden;
+		display: inline;
+		float: right;
+	}
+	#navmenu li{
+		display: inline;
+		padding-left: 5px;
+		font-size: 1em;
+		font-family: "Helvetica", "Gill Sans", sans-serif
+	}
+	#navmenu a{
+		text-decoration: none;
+		color: #3A322E;
+	}
+	#navmenu a:hover{
+		color: darkgrey;
+	}
+	#landing{
+		z-index: 2;
+		width: 100%;
+		height: 850px;
+		background-image: url("imgs/Landingbg.png");
+		background-size: cover;
+		background-position: left;
+	}
+	#slogan{
+	
+		position: absolute;
+		top: 45%;
+		left: 5%;
+		transform: translate(-50%, -50%);
+		transform: rotate(-5deg);
+
+		font-family: 'Berkshire Swash', cursive;
+		font-size: 5.5em;
+		font-weight: bold;
+		font-style: oblique;
+		color: aliceblue;
+		text-align: center;
+	}
+	#OurStory1{
+		height:  65px;
+		position: absolute;
+		bottom: 0;
+	}
+	#OurStory{
+		z-index: 2;
+		width: 100%;
+		height: 1500px;
+	}
+	#ImgLeft{
+		margin-left: 5px;
+		width: 300px;
+		float: left;
+		position: relative;
+		top: 620px;
+	}
+	#definition{
+		margin-top: -30px;
+		width: 370px;
+		height: 325px;
+		background: #CAB17F;
+		font-family: 'EB Garamond', serif;
+	}
+	#definition h1{
+		position: relative;
+		font-size: 2.5em;
+		top: 5px;
+		margin-left: 5px;
+
+
+	}
+	#definition p{
+		position: relative;
+		top: -25px;
+		margin-right: 5px;
+		margin-left: 5px;
+		font-size: 1.5em;
+	}
+	.Storytext{
+		z-index: 2;
+		left: 405px;
+		width: 52%;
+
+	}
+	#TopStory{
+		position: absolute;
+		top: 880px;
+		left: 5px;
+		text-align: center;
+		width: 98.5%;
+	}
+	#TopStory img{
+		width: 75%;
+		position: relative;
+		top: -10px;
+		left: -5px;
+	}
+	.Storytext h1{
+		font-family: 'Berkshire Swash', cursive;
+		font-weight: 400;
+		font-size: 2.5em;
+		color: #3A322E;
+	}
+	.Storytext p{
+		font-family: 'EB Garamond', serif;
+		font-size: 1.35em;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	#BotStory {
+		position: absolute;
+		top: 1530px;
+	}
+	#Bar{
+		width: 10px;
+		height: 680px;
+		position: relative;
+		top: 35px;
+		left: -5px;
+		background: #3A322E;
+		float: left;
+
+	}
+	#BotText{
+		position: relative;
+		top: -5px;
+		left: 5px;
+		margin-right: 20px;
+	}
+	#BotText h1{
+		position: relative;
+		top: 10px;
+	}
+	#BotText p{
+		margin-left: 20px;
+		position: relative;
+		top: -5px;
+	}
+	#Location1{
+		height: 100px;
+		width: 1px;
+		position: absolute;
+		top: 1475px;
+		z-index: -1;
+	}
+#Location{
+	z-index: 2;
+	width: 100%;
+	height: 1200px;
+}
+#LocationLeft{
+	margin-left: 20px;
+	height: 500px;
+	width: 742px;
+	text-align: center;
+	font-size: 1em;
+	position: relative;
+	top: 220px;
+	left: 0px;
+}
+#locationspacer{
+	width: 60%;
+	margin: -15px auto 0;
+	
+}
+#locationspacer img{
+	width: 100%;
+	
+}
+#bird{
+	width: 44%;
+	margin-left: 5%;
+	float: left;
+	margin-right: 0;
+}
+#lakes{
+	width: 44%;
+	margin-right: 5%;
+	float: right;	
+	margin-left: 0;
+}
+#LocationRight{
+	margin-right: 20px;
+	height: 500px;
+	width: 742px;
+	float: right;
+		
+}
+#LocationRight img{
+	width: 80%;
+	position: relative;
+	left: 15%;
+	top: 200px;
+}
+#LowerImg{
+	height: 200px;
+	width: 1650px;
+	position: relative;
+	top: 0px;
+	margin: 0 5px;
+	background: url("imgs/outside.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+#Menu1{
+	height:  100px;
+	width: 1px;
+	position: absolute;
+	top: 2250px;
+	z-index: -1;
+}
+#Menu{
+	z-index: 2;
+	width: 100%;
+	height: 2400px;
+}
+#Menu h1{
+	font-family: 'Berkshire Swash', cursive;
+	font-weight: 400;
+	font-size: 2.5em;
+	color: #3A322E;
+}
+#Menu h2{
+	font-family: 'EB Garamond', serif;
+	font-size: 1.35em;
+}
+#menutitle{
+	width: 240px;
+	height: 110px;
+	margin: 0 auto;
+}
+#menutitle h1{
+	margin: 20px auto 0;
+	text-align: center;
+}
+#menutitle img{
+	width: 80%;
+	position: relative;
+	left: 25px;
+	top: -10px;
+}
+.menuentry {
+	width: 32%;
+	height: 80px;
+	font-family: 'EB Garamond', serif;	
+}
+#appetizer h1{
+	text-align: center;
+}
+.menuentry h2{
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 1.2em;
+	
+}
+.menuentry h3{
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+	font-size: 1.2em;
+}
+.menuentry p{
+	width: 95%;
+	float: left;
+	margin-left: 5px;
+	margin-top: -10px;
+}
+.leftalign {
+	float: left;
+	margin-left: 20px;	
+}
+.centeralign {
+	position: relative;
+	left: 560px;
+	top: -400px;
+}
+#appeimg {
+	width: 540px;
+	height: 400px;
+	position: relative;
+	top: -800px;
+	float: right;
+	margin-right: 20px;	
+}
+.rightalign{
+	float: right;
+	margin-right: 20px;
+}
+#soupsandsalads{
+	float: left;
+	width: 33%;
+	position: relative;
+	top: -350px;
+}
+
+#soupsandsalads h1{
+	position: relative;
+	left: 25%;
+}
+#soupsandsalads .menuentry{
+	width: 100%;
+}
+#sandfimg{
+	width: 31%;
+	position: relative;
+	top: -1000px;
+	left: 34.5%;
+}
+#sandfimg img{
+	width: 100%;
+}
+#seafood{
+	float: right;
+	position: relative;
+	width: 33%;
+	top: -1700px;
+	
+}
+#seafood h1{
+	position: relative;
+	left: 40%;
+}
+#seafood .menuentry{
+	width: 100%;
+}
+#grill {
+	width: 100%;
+	height: 500px;
+	position: relative;
+	top: -970px;
+}
+#grill h1{
+	text-align: center;
+	margin-left: 35%;
+	width: 30%;
+	color: aliceblue;
+}
+#grill img{
+	width: 30%;
+	margin: 0;
+	position: relative;
+	left: 34.5%;
+	top: -86px;
+	z-index: -3;
+	
+}
+#grill .leftalign{
+	width: 100%;
+	position: relative;
+	top: -10px;
+}
+#grill .centeralign{
+	position: relative;
+	top: -330px;
+	left: 580px;
+}
+#grill .rightalign{
+	float: right;
+	position: relative;
+	top: -665px;
+	left: 1145px;
+	margin-right: 20px;
+	z-index: 2;
+}
+#images {
+	width: 100%;
+	height: 400px;
+}
+#images img {
+	width: 1650px;
+	position: relative;
+	top: -1600px;
+	left: 20px;
+}
+#Order1{
+	height:  100px;
+	width: 1px;
+	position: absolute;
+	top: 4700px;
+	z-index: -1;
+}
+#OrderNow{
+	width: 100%;
+	height: 750px;
+	background: url("imgs/orderbg.jpeg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+#OrderNow h1{
+	font-family: 'Berkshire Swash', cursive;
+	font-weight: 400;
+	font-size: 3em;
+	color: aliceblue;
+	text-align: center;
+	margin-left: 35%;
+}
+#OrderNow h2{
+	font-family: 'EB Garamond', serif;
+	font-size: 1.5em;
+	color: aliceblue;
+	text-align: center;
+	width: 40%;
+	position: relative;
+	left: 30%;
+}
+#ordertitle {
+	width: 100%;
+	position: relative;
+	top: 100px;
+}	
+#ordersub{
+	width: 100%;
+	position: relative;
+	top: 75px;
+}
+#orderbuttons{
+	width: 1650px;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+}
+#OrderNow .rightalign {
+	width: 550px;
+	position: relative;
+	top: -1800px;
+}
+#OrderNow .centeralign {
+	width: 550px;
+	position: relative;
+	top: -1400px;
+}
+#OrderNow .leftalign {
+	width: 550px;
+	position: relative;
+	top: -1000px;
+}
+#Footer{
+	width: 100%;
+	height: 200px;
+	margin-top: -25px;
+	background: #120F47;
+	margin-bottom: 0;
+	position: relative;
+	top: 100px;
+
+}
+#Footer p{
+	font-family: 'EB Garamond', serif;
+	font-size: 1.5em;
+	color: aliceblue;
+	position: relative;
+	top: -300px;
+
+}
+
+
